@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Advanced Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="top-links">
+        <a href="index.html">Google Search</a>
+    </div>
+    
+    <div class="advanced-container">
+        <h1>Advanced Search</h1>
+        
+        <form action="https://www.google.com/search" method="GET">
+            <div class="form-group">
+                <label>Find pages with... "all these words:"</label>
+                <input type="text" name="as_q">
+                <span class="example">Enter keywords: rat terrier tricolor</span>
+            </div>
+            
+            <div class="form-group">
+                <label>Find pages with... "this exact word or phrase:"</label>
+                <input type="text" name="as_epq">
+                <span class="example">Put exact words in quotes: "rat terrier"</span>
+            </div>
+            
+            <div class="form-group">
+                <label>Find pages with... "any of these words:"</label>
+                <input type="text" name="as_oq">
+                <span class="example">Type OR between words: kitten OR puppy</span>
+            </div>
+            
+            <div class="form-group">
+                <label>Find pages with... "none of these words:"</label>
+                <input type="text" name="as_eq">
+                <span class="example">Put a minus sign before words: -rodent, -Jack Russell</span>
+            </div>
+            
+            <div class="form-group">
+                <input type="submit" value="Advanced Search" class="advanced-button">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

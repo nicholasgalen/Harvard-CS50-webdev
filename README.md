@@ -1,2 +1,2 @@
-# Harvard CS50 webdev
-My solutions (might not be perfect >: ) for harvard course CS50 using mainly HTML, CSS, Python (django framework), javascript, sqlite
+# Project 00 demonstration
+https://www.youtube.com/watch?v=V5fUA4f3zpU
